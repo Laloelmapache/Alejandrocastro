@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Purple Sky</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Voga', cursive; /* Cambiado a tipo de letra VOGA */
+            margin: 0;
+            background: url('https://img.freepik.com/fotos-premium/cielo-al-anochecer-pintado-purpura-rica_1079150-181378.jpg') no-repeat center center fixed; /* Imagen de fondo */
+            background-size: cover; /* Cubrir toda la página */
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #6a0dad;
+        }
+
+        h1 {
+            font-size: 3em;
+            animation: fadeIn 2s ease-in-out;
+            margin: 0;
+            background-color: rgba(106, 13, 173, 0.8); /* Fondo semi-transparente para destacar */
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 1000px; /* Hacer el video más grande */
+            border-radius: 0px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .cover-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .music-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .music-links img {
+            width: 50px; /* Tamaño de los logos */
+            margin: 0 10px;
+            opacity: 1; /* Sin opacidad */
+            cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+        }
+
+        .lyric-highlight {
+            color: #9b59b6; /* Color lila */
+            font-weight: bold;
+            animation: pulse 1.5s infinite; /* Animación de pulso */
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .credits {
+            text-align: center;
+            margin-top: 40px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Escultura "Purple Sky"</h1>
+        <p>Una interpretación de texturas y formas naturales, creada con arcilla, porcelana y papel.</p>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2>Sobre la Escultura</h2>
+            <p>
+                "Purple Sky" es una escultura que representa un paisaje abstracto con elementos que evocan un árbol en su estructura central. 
+                Utilicé técnicas y materiales específicos para lograr texturas variadas y una forma estable, con detalles que buscan 
+                comunicar una interpretación libre de la naturaleza.
+            </p>
+        </section>
+
+       <section class="video-container">
+    <iframe src="https://drive.google.com/file/d/1j5y7TrsmFQUnTNrrVAZTAW9Hzz4OPKUw/preview" 
+        title="Video de Purple Sky" frameborder="0" allow="accelerometer; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="1000" height="600"></iframe>
+</section>
+
+        <section>
+            <h2>Inspiración</h2>
+            <p>
+                La canción <em>Purple</em> de <strong>Hollow Coves</strong> ha sido una fuente de inspiración para esta escultura, titulada <strong>Purple Sky</strong>, debido a su capacidad de transportar al oyente a un estado de paz y contemplación. 
+                Los versos de la canción evocan imágenes de serenidad y un mundo donde los colores y las sensaciones nos permiten escapar de la realidad cotidiana. Al escuchar la música, sentí una conexión profunda con el mensaje de calma y la belleza de lo etéreo que transmite, lo cual me motivó a representar ese sentimiento a través de formas, texturas y luces. <strong>Purple Sky</strong> busca capturar y transmitir la atmósfera introspectiva y poética de la canción, invitando al espectador a experimentar un espacio de tranquilidad y a perderse en un paisaje visual que evoca el mismo sentido de serenidad.
+            </p>
+        </section>
+
+        <section>
+            <h2>PARRAFOS DE INSPIRACÓN</h2>
+            <p>
+                <ul>
+                    <li class="lyric">"Donde el cielo era morado"</li>
+                    <li class="lyric">"Junto al faro en la colina abrimos una puerta a un mundo diferente"</li>
+                    <li class="lyric">"Dejando todo atrás"</li>
+                    <li class="lyric">"Ojalá pudiera quedarme aquí toda mi vida"</li>
+                    <li class="lyric">"Solo tú y yo sentados bajo un cielo purpura"</li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Portada de la Canción</h2>
+            <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/1/7/3/4/2137431709560577.jpg" alt="Portada de la canción Purple" class="cover-image">
+            <div class="music-links">
+                <a href="https://music.apple.com/gt/album/purple/1720184172?i=1720184594" target="_blank">
+                    <img src="https://e7.pngegg.com/pngimages/955/252/png-clipart-white-and-multicolored-music-logo-apple-music-itunes-streaming-media-music-purple-logo.png" alt="Logo de Apple Music">
+                </a>
+                <a href="https://open.spotify.com/track/2oUkMuFYBhdBmMsLLkE0Uy?si=YQrz5xbJTwKAuxDS71Mj-A" target="_blank">
+                    <img src="https://w7.pngwing.com/pngs/438/839/png-transparent-spotify-logo-streaming-media-spotify-icon-text-logo-music-download-thumbnail.png" alt="Logo de Spotify">
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Materiales y Técnicas</h2>
+            <p>
+                La escultura está construida con una base de madera de cedro teñido a color caoba. La estructura central, 
+                que simboliza un árbol, está modelada con arcilla, la cual proporciona rigidez al secarse. Para una textura más rugosa, 
+                cubrí la escultura con porcelana en polvo de secado rápido. Además, utilicé papel con goma para crear un terreno irregular, 
+                que también cubrí con porcelana para obtener una textura mixta de rústica y lisa media.
+            </p>
+        </section>
+
+        <section>
+            <h2>Detalles Técnicos</h2>
+            <ul>
+                <li><strong>Esfera central nacarada:</strong> La esfera que se encuentra en el núcleo de la escultura fue tratada con una técnica de esmerilado, utilizando lija y tiner para lograr un efecto opaco y nacarado. Esta apariencia le da un aspecto suave y difuso, permitiendo que la luz se disperse y realce la atmósfera de misterio en el interior.</li>
+                <li><strong>Iluminación y sonido:</strong> La escultura está equipada con una luz LED controlada a distancia, que permite cambiar de color según la preferencia del espectador, creando diferentes atmósferas. Además, como un agregado especial, Purple Sky incluye una bocina con conexión Bluetooth que permite reproducir música, reforzando el vínculo entre la obra y su inspiración musical.</li>
+                <li><strong>Textura rocosa del suelo:</strong> La superficie de la esfera inferior, que representa el suelo del "mundo" de Purple Sky, fue tratada con una técnica de empapelado y engomado. Esta técnica crea relieves y texturas irregulares, otorgando un aspecto rugoso y natural que contrasta con la suavidad de las nubes superiores.</li>
+                <li><strong>Representación del árbol central:</strong> En el centro de la obra se encuentra un árbol, también modelado en arcilla, que simboliza una conexión entre los diferentes elementos de la escultura. Dentro de este árbol se ha colocado un cilindro de vidrio, el cual permite que la luz interior se refleje y se proyecte de una manera única, generando destellos y resaltando el espacio central de la escultura.</li>
+                <li><strong>Nubes:</strong> Las nubes que rodean la parte superior de la estructura fueron modeladas en arcilla, dando forma a curvas y relieves que evocan un cielo en calma. Estas nubes crean una sensación de ligereza y movimiento en la parte superior de la escultura.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="credits">
+        <p>Página hecha por Alejandro Castro, 2024. (Castro, A. 2024)</p>
+    </footer>
+
+</body>
+</html>
